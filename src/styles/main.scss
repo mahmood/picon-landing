@@ -1,0 +1,63 @@
+@import "variables";
+@import "picon";
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,900|Source+Sans+Pro:300');
+body {
+    background: $bg_color;
+    font-family: $primary_font;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: $font_color;
+    font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  margin-bottom: 50px;
+  padding: 0 40px;
+  h1 {
+    font-size: 3.7em;
+    display: inline;
+    font-weight: 900;
+    &:after{
+      font-size: 1rem;
+      content: '-';
+      margin: 0 3px 0 0;
+    }
+  }
+  span {
+    display: inline-block;
+    font-size: 1.2em;
+  }
+  p{
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+}
+.Box{
+  text-align: center;
+  .icon{
+    display: flex;
+    flex-direction: column;
+    .icon__wrap{
+      justify-content: baseline;
+    }
+    .icon__name{
+      justify-content: baseline;
+    }
+  }
+}
+.button{
+  padding: 10px;
+  border: solid 2px $base-color;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  color: $base-color;
+  transition: all 0.3s;
+  &:hover{
+    background: $base-color;
+    color:$bg_color;
+  }
+}
