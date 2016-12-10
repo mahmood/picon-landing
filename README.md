@@ -8,10 +8,9 @@ Simple minimal Landing-page for Picon pure css iconSet.
 First, clone this repo and install dependencies.
 
 ```bash
-$ git clone https://github.com/imahmoodz/react-redux-boilerplate.git <AppName>
-$ cd <AppName>
-$ yarn
-$ yarn start
+$ git clone https://github.com/imahmoodz/picon-landing.git Picon
+$ cd Picon
+$ yarn && yarn start
 ```
 and go to `http://localhost:3000` to see landing-page.
 
