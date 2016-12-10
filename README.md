@@ -14,6 +14,7 @@ $ yarn
 $ yarn start
 ```
 and go to `http://localhost:3000` to see landing-page.
+
 also you can install dependencies with npm, use `npm install` instead of `yarn`.
 
 
