@@ -1,6 +1,6 @@
 # 👾 Picon landing-page
 
-Simple minimal Landing-page for Picon pure css iconSet.
+Simple minimal Landing-page for [Picon](https://github.com/dotamir/Picon) pure css iconSet.
 
 
 ## 🤘 Install&Run
