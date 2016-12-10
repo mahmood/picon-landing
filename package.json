@@ -1,10 +1,11 @@
 {
-    "name": "react-redux-boilerplate",
+    "name": "picon-landing",
     "version": "0.1.0",
-    "description": "simple react-redux boilterplate for kick start",
+    "description": "Landing page for Picon pure css icon set",
+    "author": "Mahmood Zamani",
     "repository": {
         "type": "git",
-        "url": "git://github.com/imahmoods/react-redux-boilerplate.git"
+        "url": "git://github.com/imahmoodz/picon-landing.git"
     },
     "scripts": {
         "start": "webpack-dev-server --inline --hot",
