@@ -21,6 +21,7 @@ class Index extends Component {
             return <IconBox key={index++} name={name} icon={icon}/>
           })}
        </Flex>
+       All Rights reserved.
       </div>
     );
   }
